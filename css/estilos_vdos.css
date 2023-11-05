@@ -14,6 +14,9 @@ body{
     height: 100vh; /*altura, 100vh es el total de la altura*/
 
 }
+.header2{
+    height:23rem;
+}
 .colorGris{
     background-color: rgb(53, 58, 64);
 }
@@ -111,6 +114,14 @@ h2Oradores{
     color: white;
     height: 60vh;
 }
+.registro{
+    padding-top: 2rem;
+    height: 15rem;
+}
+.ValorTicket{
+margin-bottom: 1rem;
+
+}
 .formularioOrador{
     width: 50%;
     height: 49vh;
@@ -143,6 +154,34 @@ h2Oradores{
     border: 1rem  rgb(163, 202, 23);
     background-color: rgb(136, 190, 59);
     border-radius: 0.3rem;
+}
+.Descuento{
+    width: 100%;
+    height: 16rem;
+    text-align: center;
+    padding: 0 15rem 0 15rem;
+    
+}
+.Venta{
+    height: 10rem;
+    padding: 0.1rem;
+}
+.Estudiante, .Traine, .Junior {
+    margin: 2rem 0.2rem;
+    padding: 2rem;
+    
+    background:white;
+    transition: background-color 0.7s;
+}
+
+.Estudiante:active{
+    background: linear-gradient(to right, #1d3947 ,#1d4962, #1e5372);
+}
+.Traine:active{
+    background: linear-gradient(to right, #1d3947 ,#1d4962, #1e5372);
+}
+.Junior:active{
+    background: linear-gradient(to right, #1d3947 ,#1d4962, #1e5372);
 }
 
 .footer{

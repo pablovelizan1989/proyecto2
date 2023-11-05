@@ -42,8 +42,25 @@ function calcTotal() {
         document.getElementById("total").className="bg-danger p-1"
         document.getElementById("total").innerHTML="La cantidad de tickets debe ser mayor o igual a 1"
         
-    }
+    }   
+}
 
+function updSelect(valor) {
+  document.getElementById("desc").value=valor
 
-    
+  this.calcTotal();
+}
+function myFunction() {
+  let nombre = document.getElementById("nombre").value;
+  let apellido = document.getElementById("apellido").value;
+  let correo = document.getElementById("correo").value;
+  let cant = document.getElementById("cant").value;
+
+  if (nombre == "" || apellido == "" || correo == "" || cant == "") {
+      alert("Por favor, complete todos los casilleros");
+      return false;
+  } else {
+      alert("La compra se realizó correctamente");
+      return true;
+  }
 }
